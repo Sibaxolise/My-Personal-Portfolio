@@ -3,22 +3,68 @@
 <head>
     <title>Sibaxolise Mningiswa</title>
     <meta charset="UTF-8">
+    <style>
+        /*navbar*/
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0 0 0 150px;
+        }
+
+        li{
+            float: right;
+        }
+
+        nav a{
+            display: block;
+            padding: 20px 15px;
+            overflow: hidden;
+            width:100%;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /*welcome*/
+        .welcome-div{
+            background-color: rgb(255, 131, 193);
+            height: 100vh;
+            width: 200vh;
+            padding-bottom: 50%;
+        }
+
+        .welcome-p{
+            text-align: center;
+            text-transform: uppercase;
+          
+            
+        }
+
+        .Welcome-button{
+           
+           
+        }
+
+   </style>
 </head>
 <body>
     <section >
         	<nav>
                 <ul>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="/Users/Sibaxolise.Mningiswa/Documents/My-Personal-Portfolio/HTML Files/index.html#Project">Projects</a></li>
-                    <li><a href="/Users/Sibaxolise.Mningiswa/Documents/My-Personal-Portfolio/HTML Files/index.html#Skills">Skills</a></li>
-                    <li><a href="/Users/Sibaxolise.Mningiswa/Documents/My-Personal-Portfolio/HTML Files/index.html#About">Bio</a></li>
+                    <li><a href="index.html#Project">Projects</a></li>
+                    <li><a href="index.html#Skills">Skills</a></li>
+                    <li><a href="index.html#About">Bio</a></li>
                     <li><a href="index.html">Home</a></li>
                 </ul>
             </nav>
     </section>
 
-    <section id="Welcome">  
-        <h1>Hey im Siba </h1>
+    <section id="Welcome"> 
+        <div class="welcome-div">
+        <h1 class="welcome-p"><b>Hello, I'm Sibaxolise Mningiswa<br>
+         I'm a Front-End Web developer Intern</b></h1>
+         <button class="Welcome-button"><a href="#About">View my work</a></button>
+        </div> 
     </section>
 
     <section id="About">
@@ -65,14 +111,18 @@
 
     </section>
 
+    <!--Contact us button-->
     <section>
         <p>contact <button ><a href="contact.html">contact</a></button></p>
     </section>
 
+    <!--Footer-->
     <footer>
-        <a href=""><img src="/images/104493_linkedin_icon.png" width="200px" height="100px" alt=""></a>
-        <a href=""><img src="/images/4550857_email_gmail_mail_sending_yahoo_icon.png" width="200px" height="100px" alt=""></a>
-        <a href=""><img src="/images/8546919_github_square_icon.png" width="200px" height="100px" alt=""></a>
+        <!--Social media links-->
+        <a href=""><img src="/images/104493_linkedin_icon.png" width="60px" height="40px" alt=""></a>
+        <a href="mailto:sibaxolisemningiswa@gmail.com"><img src="/images/1147408_address book_circle_contacts_email_gmail_icon.svg" width="60px" height="40px" alt=""></a>
+        <a href=""><img src="/images/8546919_github_square_icon.png" width="60px" height="40px" alt=""></a>
+
     </footer>
 </body>
 </html>
