@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <style>
         /*navbar*/
-        ul{
+        .navbar-UL{
             list-style: none;
             padding: 0;
             margin: 0 0 0 150px;
         }
 
-        li{
+        .navbar-l{
             float: right;
         }
 
@@ -22,12 +22,14 @@
             width:100%;
             text-decoration: none;
             text-align: center;
+            color:#0c0200;
+            font-size: larger;
         }
 
         /*welcome*/
         .welcome-div{
-            background-color: rgb(223, 41, 132);
-            width: 200vh;
+            background-color:#ff8772;
+            width:200vh ;
             padding-bottom: 50%;
         }
 
@@ -36,6 +38,7 @@
             text-transform: uppercase;
             margin-top: -30%;
             padding-bottom: 25%;
+            color:#0c0200;
         }
 
         .Welcome-button{
@@ -51,7 +54,7 @@
 
         .About{
             background-color: white;
-            width: 200vh;
+           
         }
 
         figcaption{
@@ -60,8 +63,10 @@
         }
 
         /*Skills*/
-        .Skills{
-            width: 200vh;
+        
+        /*project*/
+        table,th, td{
+          border: 1px solid black;
         }
 
         /*contact us link*/
@@ -73,20 +78,18 @@
         footer{
                 padding-left: 45%;
             }
-        .copywrite{
-            
-        }
+
    </style>
 </head>
 <body>
     <section >
         	<nav>
-                <ul>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="index.html#Project">Projects</a></li>
-                    <li><a href="index.html#Skills">Skills</a></li>
-                    <li><a href="index.html#About">Bio</a></li>
-                    <li><a href="index.html">Home</a></li>
+                <ul class="navbar-UL">
+                    <li class="navbar-l"><a href="contact.html">Contact</a></li>
+                    <li class="navbar-l"><a href="index.html#Project">Projects</a></li>
+                    <li class="navbar-l"><a href="index.html#Skills">Skills</a></li>
+                    <li class="navbar-l"><a href="index.html#About">Bio</a></li>
+                    <li class="navbar-l"><a href="index.html">Home</a></li>
                 </ul>
             </nav>
     </section>
@@ -96,7 +99,7 @@
         
         </div>
         <div class="welcome-p">
-        <h1 ><b>Hello, I'm Sibaxolise Mningiswa<br>
+        <h1 ><b>Hello, I'm <span style="color: #ff2c07;">Sibaxolise Mningiswa</span><br>
          I'm a Front-End Web developer Intern</b></h1>
          <button class="Welcome-button"><a href="#About">View my work</a></button>
         </div>
@@ -123,6 +126,18 @@
 
         
         <h1>Skills</h1>
+        <ul>
+            <li>skill1</li>
+            <li>skill2</li>
+            <li>skill3</li>
+            <li>skill4</li>
+            <li>skill5</li>
+            <li>skill6</li>
+            <li>skill7</li>
+            <li>skill8</li>
+            <li>skill9</li>
+            <li>skill10</li>
+        </ul>
     </div>
 
     </section>
@@ -131,7 +146,7 @@
 
         <h1>Projects</h1>
 
-    <table>
+    <table style="width: 60%;">
         <tr>
             <th>Project</th>
             <th>efecf</th>
@@ -150,7 +165,7 @@
             <td>sf</td>
         </tr>
 
-    </table>
+    </table><br>
 
     <a href="" download>
         <button type="button">Download</button>
