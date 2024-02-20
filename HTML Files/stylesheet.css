@@ -1,0 +1,178 @@
+/*home page*/
+ /*navbar*/
+ .navbar-UL{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 0rem;
+}
+
+.navbar-l{
+    float: right;
+}
+
+nav a{
+    display: block;
+    padding: 20px 15px;
+    overflow: hidden;
+    width:100%;
+    text-decoration: none;
+    text-align: center;
+    color:#0c0200;
+    font-size: larger;
+}
+
+/*welcome*/
+.welcome-div{
+    background-color:#ff8772;
+    width:116rem;
+    padding-bottom: 50%;
+}
+
+.welcome-p{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -30%;
+    padding-bottom: 25%;
+    color:#0c0200;
+}
+
+.Welcome-button{
+   
+   background-color: #ff2c07;
+   border: none;
+   border-radius:5%;
+   font-size: larger;
+
+}
+
+a{
+    text-decoration: none;
+    color:  #0c0200;
+    border: 10px;
+    padding: 5px 5px;
+    display:inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+button:hover{
+    background-color: #ff8772;
+}
+
+/*About*/
+
+h1{
+    text-align: center;
+}
+
+.About{
+    background-color: white;
+   
+}
+
+.about-p{
+    float: right;
+    width: 92rem;
+    margin-top: -20rem;
+   text-align: center;
+}
+
+figcaption{
+    padding-left:  5%;
+    
+}
+
+/*Skills*/
+
+.skills-l{
+    list-style:disc; 
+    padding-left: 20rem;
+}
+
+.skills{
+    float: none;
+   
+}
+/*project*/
+table,th, td{
+  border: 1px solid black;
+  margin-left: 20rem;
+
+}
+
+.download{
+
+    margin-left: 20rem;
+}
+
+/*contact us link*/
+.contact-us{
+    text-align: center;
+}
+
+/*footer*/
+footer{
+        padding-left: 45%;
+    }
+
+
+/*contact us page*/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 5rem;
+}
+
+li{
+    float: right;
+}
+
+nav a{
+    display: block;
+    padding: 20px 15px;
+    overflow: hidden;
+    width:100%;
+    text-decoration: none;
+    text-align: center;
+    color:#0c0200;
+    font-size: larger;
+}
+/*form*/
+.form{
+    padding-top: 7%;
+    padding-left: 30%;
+
+}
+
+
+input,textarea {
+width: 50%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+margin-bottom: 2%;
+}
+
+button{
+background-color: #ff8772;;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 3%;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #f14c2f;;
+}
+
+/*footer*/
+.footer{
+    margin-top: 23rem;
+    padding-left: 45rem;
+}
+
+.copywrite{
+    padding-left: 2rem;
+}
