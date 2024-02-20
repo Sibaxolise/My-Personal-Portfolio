@@ -1,4 +1,7 @@
 /*home page*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
  /*navbar*/
  .navbar-UL{
     list-style: none;
@@ -111,9 +114,8 @@ figcaption{
 /*project*/
 
 #Project{
-    height: 30rem;
+ 
    
-    padding-top: 5rem;
 }
 
 table,th, td{
@@ -122,10 +124,6 @@ table,th, td{
 
 }
 
-.download{
-
-    margin-left: 80rem;
-}
 
 /*contact us link*/
 .contact-us{
@@ -164,6 +162,10 @@ nav a{
     padding-top: 7%;
     padding-left: 30%;
 
+}
+
+.form-H{
+    text-align: justify;
 }
 
 
