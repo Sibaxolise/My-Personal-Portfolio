@@ -3,64 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact Sibaxolise</title>
-
-       <style>
-            ul{
-                list-style: none;
-                padding: 0;
-                margin: 0 0 0 150px;
-            }
-
-            li{
-                float: right;
-            }
-
-            nav a{
-                display: block;
-                padding: 20px 15px;
-                overflow: hidden;
-                width:100%;
-                text-decoration: none;
-                text-align: center;
-                color:#0c0200;
-                font-size: larger;
-            }
-            /*form*/
-            .form{
-                padding-top: 7%;
-                padding-left: 30%;
-
-            }
-
-
-            input,textarea {
-            width: 50%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            resize: vertical;
-            margin-bottom: 2%;
-            }
-
-            button{
-            background-color: #ff8772;;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 3%;
-            cursor: pointer;
-            }
-
-            button:hover {
-            background-color: #f14c2f;;
-            }
-
-            /*footer*/
-            footer{
-                margin-top: 20%;
-                padding-left: 40%;
-            }
-       </style>
+        <link rel="stylesheet" href="stylesheet.css">
+       
 
     </head>
     <body>
@@ -78,8 +22,8 @@
         </section>
         <section>
             <!--Form-->
-            <form class="form">
-                <h1><i>leave a mail</i></h1>
+            <form class="form" action="submit" >
+                <h1 class="form-H"><i>leave a mail</i></h1>
                 <input id="name" name="name" type="text" placeholder="Name"><br>
                 <input id="email" name="email" type="email" placeholder="Enter Email"><br>
                 <textarea id="messege" name="meta" row="20" cols="30" placeholder="Your Messege"></textarea><br>
@@ -88,14 +32,17 @@
         </section>
 
         <!--footer-->
-        <footer>
+        <footer class="footer">
            
         <!--social links-->
         
-        <a href=""><img src="/images/104493_linkedin_icon.png" width="60px" height="40px" alt=""></a>
-        <a href="mailto:sibaxolisemningiswa@gmail.com"><img src="/images/1147408_address book_circle_contacts_email_gmail_icon.svg" width="60px" height="40px" alt=""></a>
-        <a href=""><img src="/images/8546919_github_square_icon.png" width="60px" height="40px" alt=""></a>
+        <a href="https://www.linkedin.com/in/sibaxolise-mningiswa-76145a210/" target="_blank"><img src="/images/104493_linkedin_icon.png" width="60px" height="40px" alt=""></a>
+        <a href="mailto:sibaxolisemningiswa@gmail.com" target="_blank"><img src="/images/1147408_address book_circle_contacts_email_gmail_icon.svg" width="60px" height="40px" alt=""></a>
+        <a href="https://github.com/Sibaxolise" target="_blank"><img src="/images/8546919_github_square_icon.png" width="60px" height="40px" alt=""></a>
 
+        <div class="copywrite">
+            <p>Sibaxolise Mningiswa&#169</p>
+        </div>
         </footer>
     </body>
 </html>
