@@ -3,22 +3,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
  /*navbar*/
- .navbar-UL{
+ ul{
     list-style: none;
     padding: 0;
     margin: 0 0 0 0rem;
+    top:0;
+    position: fixed;
+    background-color: black;
+    width: 100%;
 }
 
 
 
-nav a{
+li a{
     display: block;
     padding: 20px 15px;
     overflow: hidden;
     text-decoration: none;
     text-align: center;
-    color:#0c0200;
+    color: #ff2c07;
     font-size: larger;
+}
+
+li{
+    float:right;
+    
 }
 
 /*welcome*/
@@ -45,7 +54,7 @@ nav a{
 
 a{
     text-decoration: none;
-    color:  #0c0200;
+    color:black;
     border: 10px;
     padding: 5px 5px;
     display:inline-block;
@@ -129,32 +138,8 @@ figcaption{
     text-align: center;
 }
 
-/*footer*/
-footer{
-        padding-left: 45%;
-    }
 
 
-/*contact us page*/
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0 0 0 10rem;
-}
-
-li{
-    float:right;
-}
-
-nav a{
-    display: block;
-    padding: 20px 15px;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    color:#0c0200;
-    font-size: larger;
-}
 /*form*/
 .form{
     padding-top: 7%;
@@ -191,10 +176,17 @@ background-color: #f14c2f;;
 
 /*footer*/
 .footer{
-    margin-top: 23rem;
-    padding-left: 45rem;
+    margin-top: 16rem;
+   
 }
 
 .copywrite{
-    padding-left: 2rem;
+    align-items: center;
+    background-color: #0c0200;
+    width: 100%;
+}
+
+.copywrite-p{
+    text-align: center;
+    color: #ff2c07;
 }
