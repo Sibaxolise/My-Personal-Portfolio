@@ -85,10 +85,12 @@ h1{
 }
 
 .about-p{
-    padding-left: 28rem;
-    width: 50rem;
-    margin-top: -19rem;
+    /*
+    
+    margin-top: -19rem;*/
+    padding-left: 5rem;
     text-align: center;
+    width: 80rem;
 }
 
 .name{
@@ -96,12 +98,16 @@ h1{
 }
 
 .about_img{
-    border-radius: 100rem;
+    padding: 10px 580px;
+    display: flex;
+    align-items: center;
 }
 
-figcaption{
-    padding-left:  5%;
-    
+.stickers{
+    display: flex;
+    justify-content: center;
+   
+
 }
 
 .title{
