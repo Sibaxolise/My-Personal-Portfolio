@@ -85,9 +85,8 @@ h1{
 }
 
 .about-p{
-    /*
     
-    margin-top: -19rem;*/
+    margin-top: 5rem;
     padding-left: 5rem;
     text-align: center;
     width: 80rem;
@@ -104,83 +103,9 @@ h1{
 }
 
 .stickers{
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
-   
-
-}
-
-.title{
-    padding-left: 35rem;
-}
-
-.chart-wrap{
-  width: 350px;
-  height: 300px;
-  font-family:sans-serif;
-  padding-left: 35rem;
-  .title {
-    text-align:center; 
-  }
-}
-
-.grid{
-  width:100%;
-  height:100%;
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  border-bottom:2px solid #aaa;
-  background:repeating-linear-gradient(0deg,transparent,transparent 19.5%,fadeout(#aaa,30%) 20%);
-  
-  .bar {
-    background-color:#F16335;
-    width:45px;
-    height: var(--bar-value);
-    align-self:flex-end;
-    margin:0 auto;
-    border-radius:3px 3px 0 0;
-    position:relative;
-    
-    &.bar:hover{
-      opacity:0.7;
-    }
-    
-    &::after{
-      content:attr(data-name);
-      top:-3em;
-      padding:10px;
-      display:inline-block;
-      white-space:nowrap;
-      position:absolute;
-      transform:rotate(-45deg);
-    }
-  }
-  
-  &.horizontal{
-    flex-direction:column;
-    border-bottom:none;
-    border-left:2px solid #aaa;
-  background:repeating-linear-gradient(90deg,transparent,transparent 19.5%,fadeout(#aaa,30%) 20%);
-    .bar{
-      height:4px;
-      width: var(--bar-value);
-      align-self:flex-start;
-      margin:auto 0 auto 0;
-      border-radius:03px 3px0;
-      
-      &::after{
-        top:initial;
-        left:100%;
-        padding:0 10px;
-        display:inline-block;
-        white-space:nowrap;
-        position:absolute;
-        transform:rotate(0deg);
-        line-height:3px;
-      }      
-    }
-  }
 }
 
 /*Skills*/
@@ -190,17 +115,22 @@ h1{
 }
 
 .skills-H{
-    margin-bottom: 1rem ;
+    padding-top: 6rem;
 }
 
-.skills-l{
-    list-style:disc; 
-    padding-left: 20rem;
+p{
+    text-align: center;
 }
 
-.skills{
-    float: none;
-   
+.skill_stickers{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+figcaption{
+    padding-left: 3rem;
+    padding-top: 1rem;
 }
 /*project*/
 
