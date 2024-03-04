@@ -76,6 +76,7 @@ h1{
     text-align: center;
     
 }
+/*About Section*/
 
 .About{
     padding-top: 4rem;
@@ -86,12 +87,16 @@ h1{
 .about-p{
     padding-left: 28rem;
     width: 50rem;
-    margin-top: -27rem;
+    margin-top: -19rem;
     text-align: center;
 }
 
 .name{
     color: #ff2c07;
+}
+
+.about_img{
+    border-radius: 100rem;
 }
 
 figcaption{
