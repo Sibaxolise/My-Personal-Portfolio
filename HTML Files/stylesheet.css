@@ -1,6 +1,9 @@
 /*home page*/
 *{
     font-family: Arial, Helvetica, sans-serif;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
 }
  /*navbar*/
  ul{
@@ -79,15 +82,15 @@ h1{
 /*About Section*/
 
 .About{
-    padding-top: 4rem;
+    padding-top: 4rem !important;
     background-color: white;
     height: 50rem;
 }
 
 .about-p{
     
-    margin-top: 5rem;
-    padding-left: 5rem;
+    margin-top: 2rem !important;
+    padding-left: 15rem !important;
     text-align: center;
     width: 80rem;
 }
@@ -96,16 +99,17 @@ h1{
     color: #ff2c07;
 }
 
-.about_img{
-    padding: 10px 580px;
+.aboutImg{
+    padding: 10px 10px !important;
+    margin-left: 8rem;
     display: flex;
-    align-items: center;
+    align-items: center !important;
 }
 
 .stickers{
-    padding-top: 5rem;
+    padding-top: 5rem !important;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 /*Skills*/
@@ -119,19 +123,92 @@ h1{
 }
 
 p{
+    margin-top: 2rem;
     text-align: center;
 }
+.mySlides {display: none}
+img {vertical-align: middle;}
 
-.skill_stickers{
-    padding-top: 5rem;
-    display: flex;
-    justify-content: center;
+.carousel-container{
+    margin-top: 10% !important;
+    max-width: 70%;
+    position: relative;
+    margin: auto;
 }
 
-figcaption{
-    padding-left: 3rem;
-    padding-top: 1rem;
+.skill-Image{
+    margin-left: 29rem;
 }
+.caption{
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color:#ff2c07;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+    background-color: black;
+  }
+
+
+
+.dot-container{
+    margin-top: 15px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
 /*project*/
 
 #Project{
@@ -140,7 +217,14 @@ figcaption{
 }
 
 
-
+.contact-Button{
+    background-color: #ff8772;;
+    color: white;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 20rem;
+    cursor: pointer;
+}
 
 /*contact us link*/
 .contact-us{
@@ -152,12 +236,15 @@ figcaption{
 /*form*/
 .form{
     padding-top: 7%;
-    padding-left: 30%;
+    padding-left: 35%;
+    margin-top: 10rem;
 
 }
 
 .form-H{
     text-align: justify;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
 }
 
 
@@ -184,9 +271,15 @@ background-color: #f14c2f;;
 }
 
 /*footer*/
-.footer{
-    margin-top: 16rem;
+.contact-footer{
+    margin-top: 8rem;
    
+}
+
+.social-Media{
+margin-left: 41rem;
+padding-top: 1rem;
+margin-bottom: -1rem;
 }
 
 .copywrite{
